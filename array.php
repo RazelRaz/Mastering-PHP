@@ -17,7 +17,7 @@ for($i = 0; $i < $cnt; $i++){
 }
 
 // loop backward
-echo "====================================";
+echo "<br>";
 for($i = $cnt-1; $i >= 0; $i--){
   echo $students[$i]."<br>";
 }
