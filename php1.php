@@ -9,3 +9,5 @@ $num3 = 66;
 $num3++;
 
 echo $num3;
+echo $num3;
+echo $num3;
