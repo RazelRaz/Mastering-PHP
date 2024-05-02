@@ -11,7 +11,7 @@ $box = [
 
 
 
-// search  through an array
+// search through an array
 if(in_array(3, $numbers, true)){
   echo "3 Is avaibale";
 }
