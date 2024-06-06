@@ -31,4 +31,4 @@ $test = new base("Razel Ahmed");
 //overwrite value
 // $test->name = "Ahmed";
 
-$test->show();
+// $test->show();

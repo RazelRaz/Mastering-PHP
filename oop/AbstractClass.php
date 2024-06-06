@@ -23,3 +23,10 @@ class childClass extends parentClass{
 $test = new childClass();
 
 $test->calc(4,5);
+
+
+
+
+
+
+
