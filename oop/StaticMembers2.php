@@ -7,7 +7,7 @@ class staticMem {
 
 }
 
-// inheritance class
+// inheritance class : 
 // if we use a property into inheritance class than we will use: parent::
 class deriveStatic extends staticMem {
     
