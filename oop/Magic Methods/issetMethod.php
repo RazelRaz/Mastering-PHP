@@ -7,26 +7,25 @@ class Base {
     private $lastName;
     private $detail = ["name" => "Scot Haris", "age" => "34"];
 
-    public function show($fname,$lname){
+    public function setName($fname,$lname){
         $this->firstName = $fname;
         $this->lastName = $lname;
     }
 
-    // public function __isset($property){
-    //     return isset($this->$property);
-    // }
-
-    public function __isset($name){
+    public function __isset($name)
+    {
         return isset($this->detail[$name]);
     }
+
 }
 
 $obj = new Base();
 
-// setting value of private properties
-// $obj->show("Tom", "Moody");
+$obj->setName("Mikel", "Oliver");
 
 echo isset($obj->age);
+
+
 
 
 
