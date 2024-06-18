@@ -1,5 +1,7 @@
 <?php
 
+// invoke Method
+
 class Calculation {
     public $a,$b;
 
