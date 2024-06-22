@@ -2,6 +2,8 @@
 
 // FILTER_VALIDATE_INT
 
+// true - is not a float
+
 $var = 17;
 $minmax = array("options" => array("min_range"=> "20","max_range" => "30"));
 
